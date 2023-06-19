@@ -1,0 +1,18 @@
+uuid: ec44e146-0a5e-4f03-85ed-afe60b33a5cc
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_price_in_inr
+field_name: field_price_in_inr
+entity_type: node
+type: float
+settings: {  }
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,23 @@
+uuid: bbb05aa1-d575-46ec-80e5-6a23bf5a75b0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_price_in_inr
+    - node.type.product
+id: node.product.field_price_in_inr
+field_name: field_price_in_inr
+entity_type: node
+bundle: product
+label: 'Price in INR'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: float

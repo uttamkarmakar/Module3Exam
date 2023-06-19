@@ -1,0 +1,40 @@
+uuid: bd5475f7-2325-4f21-8081-9f577c974aa0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.homepage.field_link_to_pages
+    - field.field.paragraph.homepage.field_multi_image_banner
+    - paragraphs.paragraphs_type.homepage
+  module:
+    - image
+    - link
+id: paragraph.homepage.default
+targetEntityType: paragraph
+bundle: homepage
+mode: default
+content:
+  field_link_to_pages:
+    type: link
+    label: above
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_multi_image_banner:
+    type: image
+    label: above
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden: {  }

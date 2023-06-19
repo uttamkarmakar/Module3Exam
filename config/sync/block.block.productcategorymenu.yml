@@ -1,0 +1,29 @@
+uuid: 78116ebc-89d8-4f45-b30e-091a6ef66114
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.product-category-menu
+  module:
+    - system
+  theme:
+    - bootstrap5
+id: productcategorymenu
+theme: bootstrap5
+region: breadcrumb
+weight: 0
+provider: null
+plugin: 'system_menu_block:product-category-menu'
+settings:
+  id: 'system_menu_block:product-category-menu'
+  label: 'Product Category Menu'
+  label_display: visible
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'

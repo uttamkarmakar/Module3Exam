@@ -1,0 +1,8 @@
+uuid: 98301282-0509-401f-8472-d8ae500ab487
+langcode: en
+status: true
+dependencies: {  }
+id: product-category-menu
+label: 'Product Category Menu'
+description: 'This menu holds the link to the indivisual taxonomy term page.'
+locked: false

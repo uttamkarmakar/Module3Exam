@@ -1,0 +1,8 @@
+uuid: 0cafe436-7d05-4768-90b4-b4c555b6a588
+langcode: en
+status: true
+dependencies: {  }
+id: grocery
+label: Grocery
+description: ''
+locked: false

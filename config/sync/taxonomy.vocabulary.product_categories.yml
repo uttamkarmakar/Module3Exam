@@ -1,0 +1,8 @@
+uuid: 2d28dd70-6a1f-43a8-adc7-d355660084ee
+langcode: en
+status: true
+dependencies: {  }
+name: 'Product Categories'
+vid: product_categories
+description: 'This vocabulary holds the different types of category of product to classify products in the site'
+weight: 0

@@ -1,0 +1,8 @@
+uuid: e03c41e5-9e98-48c8-83ed-74759791e934
+langcode: en
+status: true
+dependencies: {  }
+id: secondary-menu
+label: 'Secondary Menu'
+description: 'This menu holds the link to the indivisual product category page.'
+locked: false

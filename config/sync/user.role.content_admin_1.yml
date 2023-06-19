@@ -1,0 +1,16 @@
+uuid: c84dff62-b2f2-42a7-8dfb-e838a96268be
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.product_category
+  module:
+    - taxonomy
+id: content_admin_1
+label: 'Content admin 1'
+weight: 5
+is_admin: null
+permissions:
+  - 'create terms in product_category'
+  - 'delete terms in product_category'
+  - 'edit terms in product_category'
