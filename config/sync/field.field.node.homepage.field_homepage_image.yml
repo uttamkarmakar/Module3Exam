@@ -1,0 +1,31 @@
+uuid: a58d129d-f1fe-448a-878c-33ecd0a77888
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_homepage_image
+    - node.type.homepage
+    - paragraphs.paragraphs_type.homepage
+  module:
+    - entity_reference_revisions
+id: node.homepage.field_homepage_image
+field_name: field_homepage_image
+entity_type: node
+bundle: homepage
+label: 'Homepage Image'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      homepage: homepage
+    negate: 0
+    target_bundles_drag_drop:
+      homepage:
+        weight: 2
+        enabled: true
+field_type: entity_reference_revisions

@@ -1,0 +1,14 @@
+_core:
+  default_config_hash: VDJxTZtQR21qB4lvOq8zszJZLvLKrSPQpdn2E3T71Ww
+langcode: en
+uuid: ea502ddd-8a11-4f26-82cb-2a2b48edf7a9
+name: FlipKart
+mail: uttam.karmakar@innoraft.com
+slogan: ''
+page:
+  403: /node/68
+  404: /node/69
+  front: /node/67
+admin_compact_mode: false
+weight_select_max: 100
+default_langcode: en

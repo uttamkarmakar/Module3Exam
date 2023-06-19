@@ -1,0 +1,10 @@
+uuid: 6427c621-aa50-4a67-bb38-4d3572d2deec
+langcode: en
+status: true
+dependencies: {  }
+id: homepage
+label: Homepage
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

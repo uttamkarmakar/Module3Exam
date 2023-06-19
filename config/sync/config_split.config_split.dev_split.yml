@@ -1,0 +1,35 @@
+uuid: 31b9dbf3-fa5d-41b1-8f07-275b033f9ce0
+langcode: en
+status: true
+dependencies: {  }
+id: dev_split
+label: 'Dev Split'
+description: ''
+weight: 0
+folder: ../config/Dev_split
+module:
+  webform_ui: 0
+theme: {  }
+blacklist:
+  - webform.settings
+  - webform.webform.become_a_seller
+  - webform.webform.contact
+  - webform.webform_options.country_codes
+  - webform.webform_options.country_names
+  - webform.webform_options.days
+  - webform.webform_options.education
+  - webform.webform_options.employment_status
+  - webform.webform_options.ethnicity
+  - webform.webform_options.gender
+  - webform.webform_options.industry
+  - webform.webform_options.languages
+  - webform.webform_options.likert_agreement
+  - webform.webform_options.likert_comparison
+  - webform.webform_options.likert_importance
+  - webform.webform_options.likert_quality
+  - webform.webform_options.likert_satisfaction
+  - webform.webform_options.province_codes
+  - webform.webform_options.province_names
+graylist: {  }
+graylist_dependents: true
+graylist_skip_equal: true
